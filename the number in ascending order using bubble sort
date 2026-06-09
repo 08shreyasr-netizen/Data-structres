@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main();
+{
+int a[5] = {5,3,1,6,0}, 1, pass,temp;
+printf("array before sorting /n");
+for(i=o;i<n;i++;)
+{
+for(pass=1;pass<n;pass++)
+{
+for(i=0;i<n-pass;I++)
+(
+if(a[i]>a[i+1]
+{
+temp=a[i]
+a[i]=a[i+1]
+a[i+1]=temp
+}
+}
+}
+printf("array after sorting /n");
+for(i=0;i<n;i++)
+printf("%d/n" a[i]);
+getch();
+}
